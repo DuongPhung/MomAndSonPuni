@@ -1126,7 +1126,7 @@ input#checkboxLabel:checked ~ .box span{
 }
 .bg-primary{
   --tw-bg-opacity: 1;
-  background-color: rgb(74 108 247 / var(--tw-bg-opacity));
+  background-color: rgb(255 20 147 / var(--tw-bg-opacity));
 }
 .bg-transparent{
   background-color: transparent;
@@ -1398,7 +1398,7 @@ input#checkboxLabel:checked ~ .box span{
 }
 .text-primary{
   --tw-text-opacity: 1;
-  color: rgb(74 108 247 / var(--tw-text-opacity));
+  color: rgb(255 20 147 / var(--tw-text-opacity));
 }
 .text-white{
   --tw-text-opacity: 1;
@@ -1469,7 +1469,7 @@ input#checkboxLabel:checked ~ .box span{
 }
 .ring-primary{
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(74 108 247 / var(--tw-ring-opacity));
+  --tw-ring-color: rgb(255 20 147 / var(--tw-ring-opacity));
 }
 .drop-shadow-three{
   --tw-drop-shadow: drop-shadow(0px 5px 15px rgba(6, 8, 15, 0.05));
@@ -1513,20 +1513,20 @@ input#checkboxLabel:checked ~ .box span{
 
 .hover\:border-primary:hover{
   --tw-border-opacity: 1;
-  border-color: rgb(74 108 247 / var(--tw-border-opacity));
+  border-color: rgb(255 20 147 / var(--tw-border-opacity));
 }
 
 .hover\:bg-primary:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(74 108 247 / var(--tw-bg-opacity));
+  background-color: rgb(255 20 147 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-primary\/5:hover{
-  background-color: rgb(74 108 247 / 0.05);
+  background-color: rgb(255 20 147 / 0.05);
 }
 
 .hover\:bg-primary\/90:hover{
-  background-color: rgb(74 108 247 / 0.9);
+  background-color: rgb(255 20 147 / 0.9);
 }
 
 .hover\:bg-white:hover{
@@ -1544,7 +1544,7 @@ input#checkboxLabel:checked ~ .box span{
 
 .hover\:text-primary:hover{
   --tw-text-opacity: 1;
-  color: rgb(74 108 247 / var(--tw-text-opacity));
+  color: rgb(255 20 147 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover{
@@ -1585,7 +1585,7 @@ input#checkboxLabel:checked ~ .box span{
 
 .focus\:border-primary:focus{
   --tw-border-opacity: 1;
-  border-color: rgb(74 108 247 / var(--tw-border-opacity));
+  border-color: rgb(255 20 147 / var(--tw-border-opacity));
 }
 
 .focus\:ring-2:focus{
@@ -1596,7 +1596,7 @@ input#checkboxLabel:checked ~ .box span{
 
 .group:hover .group-hover\:text-primary{
   --tw-text-opacity: 1;
-  color: rgb(74 108 247 / var(--tw-text-opacity));
+  color: rgb(255 20 147 / var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:opacity-100{
@@ -2379,21 +2379,21 @@ input#checkboxLabel:checked ~ .box span{
 
 :is(:where(.dark) .dark\:hover\:border-primary:hover){
   --tw-border-opacity: 1;
-  border-color: rgb(74 108 247 / var(--tw-border-opacity));
+  border-color: rgb(255 20 147 / var(--tw-border-opacity));
 }
 
 :is(:where(.dark) .dark\:hover\:bg-primary:hover){
   --tw-bg-opacity: 1;
-  background-color: rgb(74 108 247 / var(--tw-bg-opacity));
+  background-color: rgb(255 20 147 / var(--tw-bg-opacity));
 }
 
 :is(:where(.dark) .dark\:hover\:bg-primary\/5:hover){
-  background-color: rgb(74 108 247 / 0.05);
+  background-color: rgb(255 20 147 / 0.05);
 }
 
 :is(:where(.dark) .dark\:hover\:text-primary:hover){
   --tw-text-opacity: 1;
-  color: rgb(74 108 247 / var(--tw-text-opacity));
+  color: rgb(255 20 147 / var(--tw-text-opacity));
 }
 
 :is(:where(.dark) .dark\:hover\:text-white:hover){
@@ -2418,7 +2418,7 @@ input#checkboxLabel:checked ~ .box span{
 
 :is(:where(.dark) .dark\:focus\:border-primary:focus){
   --tw-border-opacity: 1;
-  border-color: rgb(74 108 247 / var(--tw-border-opacity));
+  border-color: rgb(255 20 147 / var(--tw-border-opacity));
 }
 
 :is(:where(.dark) .dark\:focus\:shadow-none:focus){
