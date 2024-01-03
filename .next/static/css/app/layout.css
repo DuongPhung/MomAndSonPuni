@@ -1311,20 +1311,23 @@ input#checkboxLabel:checked ~ .box span{
 .pt-8{
   padding-top: 2rem;
 }
-.pt-\[120px\]{
-  padding-top: 120px;
-}
 .pt-\[150px\]{
   padding-top: 150px;
 }
 .pt-\[180px\]{
   padding-top: 180px;
 }
+.pt-\[20px\]{
+  padding-top: 20px;
+}
 .text-center{
   text-align: center;
 }
 .text-end{
   text-align: end;
+}
+.align-middle{
+  vertical-align: middle;
 }
 .text-2xl{
   font-size: 1.5rem;
@@ -1407,6 +1410,10 @@ input#checkboxLabel:checked ~ .box span{
 .text-yellow{
   --tw-text-opacity: 1;
   color: rgb(251 176 64 / var(--tw-text-opacity));
+}
+.text-blue{
+  --tw-text-opacity: 1;
+  color: rgb(0 46 238 / var(--tw-text-opacity));
 }
 .underline{
   text-decoration-line: underline;

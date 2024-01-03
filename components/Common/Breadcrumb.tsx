@@ -1,3 +1,4 @@
+import React from 'react';
 import Link from "next/link";
 
 const Breadcrumb = ({
@@ -8,16 +9,16 @@ const Breadcrumb = ({
   description: string;
 }) => {
   return (
-    <>
+    <React.Fragment>
       <section className="relative z-10 overflow-hidden pt-28 lg:pt-[150px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 md:w-8/12 lg:w-7/12">
               <div className="mb-8 max-w-[570px] md:mb-0 lg:mb-12">
-                <h1 className="mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl">
+                <h1 className="mb-5 text-2xl font-bold text-blue dark:text-white sm:text-3xl " style={{ fontFamily: 'fantasy' }}>
                   {pageName}
                 </h1>
-                <p className="text-base font-medium leading-relaxed text-body-color">
+                <p className="text-base font-medium leading-relaxed text-body-color italic">
                   {description}
                 </p>
               </div>
@@ -30,7 +31,7 @@ const Breadcrumb = ({
                       href="/"
                       className="pr-1 text-base font-medium text-body-color hover:text-primary"
                     >
-                      Home
+                      Trang chủ
                     </Link>
                     <span className="mr-3 block h-2 w-2 rotate-45 border-r-2 border-t-2 border-body-color"></span>
                   </li>
@@ -118,7 +119,7 @@ const Breadcrumb = ({
           </span>
         </div>
       </section>
-    </>
+    </React.Fragment>
   );
 };
 
