@@ -1326,9 +1326,6 @@ input#checkboxLabel:checked ~ .box span{
 .text-end{
   text-align: end;
 }
-.align-middle{
-  vertical-align: middle;
-}
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1391,6 +1388,10 @@ input#checkboxLabel:checked ~ .box span{
   --tw-text-opacity: 1;
   color: rgb(18 23 35 / var(--tw-text-opacity));
 }
+.text-blue{
+  --tw-text-opacity: 1;
+  color: rgb(0 46 238 / var(--tw-text-opacity));
+}
 .text-body-color{
   --tw-text-opacity: 1;
   color: rgb(120 130 147 / var(--tw-text-opacity));
@@ -1410,10 +1411,6 @@ input#checkboxLabel:checked ~ .box span{
 .text-yellow{
   --tw-text-opacity: 1;
   color: rgb(251 176 64 / var(--tw-text-opacity));
-}
-.text-blue{
-  --tw-text-opacity: 1;
-  color: rgb(0 46 238 / var(--tw-text-opacity));
 }
 .underline{
   text-decoration-line: underline;
@@ -2123,10 +2120,6 @@ input#checkboxLabel:checked ~ .box span{
 
   .xl\:w-2\/12{
     width: 16.666667%;
-  }
-
-  .xl\:w-3\/12{
-    width: 25%;
   }
 
   .xl\:w-4\/12{
